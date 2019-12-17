@@ -1,5 +1,6 @@
 # EECS731Project7
-The Oscars
+
+Title: The Oscars
 
 The data is the 'Beijing_housing_price.csv', which is chosen from the semester project.
 
@@ -10,6 +11,7 @@ There are features ['Lng', 'Lat', 'tradeTime', 'DOM', 'followers', 'totalPrice',
        'buildingType', 'renovationCondition', 'buildingStructure',
        'ladderRatio', 'elevator', 'fiveYearsProperty', 'subway', 'district',
        'communityAverage'] in this data set. 
+       
  However, for training purpose, we won't use all of them. We only select parts of them to reduce traing overhead and improving the performance as well. The choosing criterion is based on the correlation we characterized.
  
 
